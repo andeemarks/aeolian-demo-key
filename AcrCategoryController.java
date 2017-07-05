@@ -1,6 +1,6 @@
 public class AcrCategoryController extends BaseController {
     @Autowired                                                                     
-    private AcrCategoryServiceacrCategoryService; 
+    private AcrCategoryService acrCategoryService; 
 
        @RequestMapping("/action")
     public String action(ModelMap model, AcrCategoryModel acrCategoryModel) {
